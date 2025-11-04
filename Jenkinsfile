@@ -18,7 +18,7 @@ pipeline {
       steps {
           sh 'mvn -B clean package -DskipTests'
           stash includes: 'target/*.war', name: 'war'
-        }
+        
       }
       post {
         success {
