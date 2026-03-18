@@ -125,3 +125,4 @@ tool:
     installations:
     - home: "git"
       name: "Default"
+      name: "Default"
